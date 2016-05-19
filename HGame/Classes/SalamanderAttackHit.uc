@@ -1,0 +1,76 @@
+Class SalamanderAttackHit extends HitComboEmitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         Acceleration=(Z=-150.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=24,G=140,R=245))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=5,G=105,R=239))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255))
+         FadeOutStartTime=0.750000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         MaxParticles=50
+         EffectAxis=PTEA_PositiveZ
+         AutoDestroy=True
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-20.000000,Max=20.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-2.000000,Max=2.000000))
+         UseSizeScale=True
+         SizeScale(0)=(RelativeTime=0.100000,RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=4.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         UniformSize=True
+         UseSkeletalLocationAs=PTSU_SpawnOffset
+         RelativeBoneIndexRange=(Min=0.400000,Max=0.800000)
+         InitialParticlesPerSecond=1000.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'HP_FX.Spells.LesFire_01'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=1
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Min=100.000000,Max=100.000000))
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(0)=SpriteEmitter'HGame.SalamanderAttackHit.SpriteEmitter9'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         Acceleration=(Z=100.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=128,G=255,R=255))
+         ColorScale(1)=(RelativeTime=0.250000,Color=(R=255))
+         ColorScale(2)=(RelativeTime=0.500000,Color=(B=128,G=255,R=255))
+         ColorScale(3)=(RelativeTime=0.750000,Color=(R=255))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(R=255))
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         CoordinateSystem=PTCS_Relative
+         MaxParticles=40
+         StartLocationRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-20.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-2.000000,Max=2.000000))
+         StartSpinRange=(X=(Min=-0.250000,Max=0.250000))
+         UseSizeScale=True
+         SizeScale(0)=(RelativeTime=0.100000,RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=0.850000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=4.000000,Max=5.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=50.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'HP3_FX.MultiFrame.LargeFlames'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=1
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.750000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-60.000000,Max=60.000000),Y=(Min=-60.000000,Max=60.000000),Z=(Min=20.000000,Max=50.000000))
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(1)=SpriteEmitter'HGame.SalamanderAttackHit.SpriteEmitter11'
+     LightBrightness=70.000000
+     LightRadius=20.000000
+}

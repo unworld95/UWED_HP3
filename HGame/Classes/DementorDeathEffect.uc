@@ -1,0 +1,96 @@
+Class DementorDeathEffect extends SpellFlyEmitter;
+
+defaultproperties
+{
+     Begin Object Class=BeamEmitter Name=BeamEmitter0
+         BeamDistanceRange=(Min=40.000000,Max=60.000000)
+         BeamTextureUScale=3.000000
+         HighFrequencyNoiseRange=(X=(Min=-25.000000,Max=25.000000),Y=(Min=-25.000000,Max=25.000000),Z=(Min=-25.000000,Max=25.000000))
+         HighFrequencyPoints=5
+         UseColorScale=True
+         ColorScale(0)=(RelativeTime=0.330000,Color=(B=255,G=255,R=128))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=255,G=255,R=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=128,G=255,R=255))
+         FadeOutStartTime=1.000000
+         FadeOut=True
+         FadeInEndTime=0.250000
+         FadeIn=True
+         CoordinateSystem=PTCS_Relative
+         MaxParticles=20
+         StartSizeRange=(X=(Min=5.000000,Max=15.000000))
+         InitialParticlesPerSecond=100.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'HP3_FX.Particles.Bolt1'
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-60.000000,Max=60.000000),Y=(Min=-60.000000,Max=60.000000),Z=(Min=-50.000000,Max=75.000000))
+         Name="BeamEmitter0"
+     End Object
+     Emitters(0)=BeamEmitter'HGame.DementorDeathEffect.BeamEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=181,G=128,R=74))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255))
+         ColorScaleRepeats=2.000000
+         FadeOutStartTime=1.000000
+         FadeOut=True
+         MaxParticles=30
+         StartLocationRange=(X=(Min=-40.000000,Max=40.000000),Y=(Min=-40.000000,Max=40.000000),Z=(Min=-110.000000,Max=110.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.250000,RelativeSize=10.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=20.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=1000.000000
+         Texture=Texture'HP3_FX.MultiFrame.SmokeSequence'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=8
+         SubdivisionEnd=1
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         InitialDelayRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000),Z=(Min=-30.000000,Max=30.000000))
+         VelocityLossRange=(X=(Min=1.000000,Max=2.000000),Y=(Min=1.000000,Max=2.000000),Z=(Min=1.000000,Max=2.000000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(1)=SpriteEmitter'HGame.DementorDeathEffect.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter6
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=128,G=64))
+         ColorScale(2)=(RelativeTime=1.000000)
+         FadeOutStartTime=1.000000
+         FadeOut=True
+         FadeInEndTime=1.000000
+         FadeIn=True
+         MaxParticles=50
+         StartLocationRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Min=-55.000000,Max=55.000000))
+         SphereRadiusRange=(Min=200.000000,Max=300.000000)
+         UseRevolution=True
+         RevolutionsPerSecondRange=(Z=(Min=0.350000,Max=0.350000))
+         UseRevolutionScale=True
+         RevolutionScale(0)=(RelativeTime=0.010000,RelativeRevolution=(Z=1.000000))
+         RevolutionScale(1)=(RelativeTime=1.000000,RelativeRevolution=(Z=10.000000))
+         StartSizeRange=(X=(Min=50.000000,Max=75.000000))
+         UniformSize=True
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'HP3_FX.MultiFrame.SmokeSequence'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=1.500000,Max=1.500000)
+         StartVelocityRange=(X=(Min=2.000000,Max=5.000000),Y=(Min=2.000000,Max=5.000000),Z=(Min=4.000000,Max=5.000000))
+         VelocityLossRange=(X=(Min=3.000000,Max=3.000000),Y=(Min=3.000000,Max=3.000000),Z=(Min=1.000000,Max=1.000000))
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeTime=0.100000,RelativeVelocity=(X=25.000000,Y=-25.000000,Z=25.000000))
+         VelocityScale(1)=(RelativeTime=0.500000,RelativeVelocity=(X=-25.000000,Y=25.000000,Z=-25.000000))
+         VelocityScaleRepeats=1.000000
+         RelativeWarmupTime=3.000000
+         Name="SpriteEmitter6"
+     End Object
+     Emitters(2)=SpriteEmitter'HGame.DementorDeathEffect.SpriteEmitter6'
+     AutoReset=False
+     LightBrightness=0.000000
+}

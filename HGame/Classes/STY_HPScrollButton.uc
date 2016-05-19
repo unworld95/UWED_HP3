@@ -1,0 +1,30 @@
+Class STY_HPScrollButton extends GUIStyles;
+
+defaultproperties
+{
+     KeyName="HPScrollButton"
+     Images(0)=Texture'HP3_Menu.A_Misc.Scroll'
+     Images(1)=Texture'HP3_Menu.A_Misc.Scroll'
+     Images(2)=Texture'HP3_Menu.A_Misc.Scroll'
+     Images(3)=Texture'HP3_Menu.A_Misc.Scroll'
+     Images(4)=Texture'HP3_Menu.A_Misc.Scroll'
+     ImgStyle(0)=ISTY_Scaled
+     ImgStyle(1)=ISTY_Scaled
+     ImgStyle(2)=ISTY_Scaled
+     ImgStyle(3)=ISTY_Scaled
+     ImgStyle(4)=ISTY_Scaled
+     FontColors(0)=(B=0,G=0,R=51)
+     FontColors(1)=(B=0,G=153,R=0)
+     FontColors(2)=(B=0,G=153,R=0)
+     FontColors(3)=(B=0,G=0)
+     FontColors(4)=(B=0,G=0,R=51)
+     BorderOffsets(0)=0
+     BorderOffsets(1)=0
+     BorderOffsets(2)=0
+     BorderOffsets(3)=0
+     FontNames(0)="FontHPButton"
+     FontNames(1)="FontHPButton"
+     FontNames(2)="FontHPButton"
+     FontNames(3)="FontHPButton"
+     FontNames(4)="FontHPButton"
+}

@@ -1,0 +1,72 @@
+Class SalamanderAttackFire extends SpellFlyEmitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter30
+         Acceleration=(Z=20.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=24,G=140,R=245))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=5,G=105,R=239))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255))
+         FadeOutStartTime=0.750000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         MaxParticles=50
+         EffectAxis=PTEA_PositiveZ
+         AutoDestroy=True
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-2.000000,Max=2.000000))
+         UseSizeScale=True
+         SizeScale(0)=(RelativeTime=0.100000,RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=4.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         UniformSize=True
+         UseSkeletalLocationAs=PTSU_SpawnOffset
+         RelativeBoneIndexRange=(Min=0.400000,Max=0.800000)
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'HP_FX.Spells.LesFire_01'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=1
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=10.000000,Max=25.000000))
+         Name="SpriteEmitter30"
+     End Object
+     Emitters(0)=SpriteEmitter'HGame.SalamanderAttackFire.SpriteEmitter30'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter31
+         Acceleration=(Z=10.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=24,G=140,R=245))
+         ColorScale(1)=(RelativeTime=0.500000,Color=(B=5,G=105,R=239))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=255,G=255,R=255))
+         FadeOutStartTime=0.750000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         CoordinateSystem=PTCS_Relative
+         EffectAxis=PTEA_PositiveZ
+         AutoDestroy=True
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-2.000000,Max=2.000000))
+         UseSizeScale=True
+         SizeScale(0)=(RelativeTime=0.100000,RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=0.500000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=4.000000,Max=5.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         UniformSize=True
+         UseSkeletalLocationAs=PTSU_SpawnOffset
+         RelativeBoneIndexRange=(Min=0.400000,Max=0.800000)
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'HP_FX.Spells.LesFire_01'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=1
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=10.000000,Max=10.000000))
+         Name="SpriteEmitter31"
+     End Object
+     Emitters(1)=SpriteEmitter'HGame.SalamanderAttackFire.SpriteEmitter31'
+     LightBrightness=80.000000
+     LightRadius=12.000000
+     bDirectional=True
+}

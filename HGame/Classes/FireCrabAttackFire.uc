@@ -1,0 +1,75 @@
+Class FireCrabAttackFire extends SpellFlyEmitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter26
+         Acceleration=(Z=15.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(R=255))
+         ColorScale(1)=(RelativeTime=0.700000,Color=(B=64,G=128,R=255))
+         ColorScale(2)=(RelativeTime=1.000000,Color=(B=128,G=255,R=128))
+         FadeOutStartTime=0.330000
+         FadeOut=True
+         FadeInEndTime=0.100000
+         FadeIn=True
+         MaxParticles=40
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         SizeScale(0)=(RelativeSize=4.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=4.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=12.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=1000.000000
+         Texture=Texture'HP3_FX.MultiFrame.SmokeSequence'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         BlendBetweenSubdivisions=True
+         SubdivisionStart=1
+         SubdivisionEnd=16
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(Z=(Max=5.000000))
+         Name="SpriteEmitter26"
+     End Object
+     Emitters(0)=SpriteEmitter'HGame.FireCrabAttackFire.SpriteEmitter26'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter30
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=24,G=140,R=245))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=5,G=105,R=239))
+         ColorScaleRepeats=2.000000
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         FadeInEndTime=0.200000
+         FadeIn=True
+         CoordinateSystem=PTCS_Relative
+         MaxParticles=30
+         EffectAxis=PTEA_PositiveZ
+         AutoDestroy=True
+         StartLocationShape=PTLS_Sphere
+         SphereRadiusRange=(Min=-5.000000,Max=5.000000)
+         StartLocationPolarRange=(X=(Min=500.000000,Max=500.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-2.000000,Max=2.000000))
+         UseSizeScale=True
+         SizeScale(0)=(RelativeTime=0.100000,RelativeSize=1.500000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=0.750000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.250000)
+         StartSizeRange=(X=(Min=10.000000,Max=10.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         UniformSize=True
+         UseSkeletalLocationAs=PTSU_SpawnOffset
+         RelativeBoneIndexRange=(Min=0.400000,Max=0.800000)
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'HP_FX.Spells.LesFire_01'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=1
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=0.500000,Max=0.750000)
+         Name="SpriteEmitter30"
+     End Object
+     Emitters(1)=SpriteEmitter'HGame.FireCrabAttackFire.SpriteEmitter30'
+     LightBrightness=80.000000
+     LightRadius=12.000000
+     LightHue=255
+     LightSaturation=64
+     bDirectional=True
+}

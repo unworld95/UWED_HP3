@@ -1,0 +1,97 @@
+Class PatMeterEmitter extends HitComboEmitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter19
+         Acceleration=(Z=-150.000000)
+         UseMaxCollisions=True
+         MaxCollisions=(Min=1.000000,Max=3.000000)
+         ColorScale(0)=(Color=(B=14,G=200,R=254,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=91,G=169,R=255,A=255))
+         FadeOutStartTime=2.000000
+         FadeOut=True
+         MaxParticles=25
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         RevolutionsPerSecondRange=(Z=(Min=0.250000,Max=1.000000))
+         RevolutionScaleRepeats=2.000000
+         SpinParticles=True
+         SpinCCWorCW=(X=0.540000)
+         SpinsPerSecondRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=0.050000,Max=0.100000),Z=(Min=0.050000,Max=0.100000))
+         RotationNormal=(X=100.000000,Y=100.000000,Z=110.000000)
+         UseSizeScale=True
+         SizeScale(0)=(RelativeTime=0.100000,RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.900000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=2.000000,Max=10.000000),Y=(Min=2.000000,Max=6.000000),Z=(Min=2.000000,Max=6.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=500.000000
+         Texture=Texture'HP_FX.Particles.Les_Sparkle_01'
+         LifetimeRange=(Min=2.000000,Max=3.000000)
+         StartVelocityRange=(X=(Min=-75.000000,Max=75.000000),Y=(Min=-75.000000,Max=75.000000),Z=(Max=50.000000))
+         Name="SpriteEmitter19"
+     End Object
+     Emitters(0)=SpriteEmitter'HGame.PatMeterEmitter.SpriteEmitter19'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter21
+         Acceleration=(Z=-50.000000)
+         UseMaxCollisions=True
+         MaxCollisions=(Min=1.000000,Max=3.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=14,G=200,R=254,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=91,G=169,R=255,A=255))
+         FadeOutStartTime=0.495000
+         FadeOut=True
+         FadeInEndTime=0.090000
+         FadeIn=True
+         MaxParticles=50
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         RevolutionsPerSecondRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         RevolutionScaleRepeats=2.000000
+         SpinParticles=True
+         SpinCCWorCW=(X=0.540000)
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=1.500000),Y=(Min=0.050000,Max=0.100000),Z=(Min=0.050000,Max=0.100000))
+         RotationNormal=(X=100.000000,Y=100.000000,Z=110.000000)
+         UseSizeScale=True
+         SizeScale(0)=(RelativeTime=0.870000)
+         StartSizeRange=(X=(Min=2.000000,Max=10.000000),Y=(Min=2.000000,Max=6.000000),Z=(Min=2.000000,Max=6.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=50.000000
+         Texture=Texture'HP_FX.Particles.Les_Sparkle_04'
+         LifetimeRange=(Min=1.000000,Max=1.250000)
+         InitialDelayRange=(Min=1.250000,Max=1.250000)
+         StartVelocityRange=(X=(Min=-200.000000,Max=200.000000),Y=(Min=-200.000000,Max=200.000000),Z=(Max=200.000000))
+         Name="SpriteEmitter21"
+     End Object
+     Emitters(1)=SpriteEmitter'HGame.PatMeterEmitter.SpriteEmitter21'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter23
+         Acceleration=(Z=-100.000000)
+         UseMaxCollisions=True
+         MaxCollisions=(Min=1.000000,Max=3.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=14,G=200,R=254,A=255))
+         ColorScale(1)=(RelativeTime=0.250000,Color=(B=64,R=128,A=255))
+         ColorScale(2)=(RelativeTime=0.500000,Color=(B=192,G=192,R=192))
+         ColorScale(3)=(RelativeTime=1.000000,Color=(B=255,G=128))
+         ColorScaleRepeats=3.000000
+         FadeOutStartTime=0.495000
+         FadeOut=True
+         FadeInEndTime=0.090000
+         FadeIn=True
+         MaxParticles=100
+         StartLocationRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         RevolutionsPerSecondRange=(Z=(Min=0.250000,Max=1.000000))
+         RevolutionScaleRepeats=2.000000
+         SpinCCWorCW=(X=0.540000)
+         SpinsPerSecondRange=(X=(Min=0.050000,Max=0.100000),Y=(Min=0.050000,Max=0.100000),Z=(Min=0.050000,Max=0.100000))
+         RotationNormal=(X=100.000000,Y=100.000000,Z=110.000000)
+         UseSizeScale=True
+         SizeScale(0)=(RelativeTime=0.870000)
+         StartSizeRange=(X=(Min=2.000000,Max=10.000000),Y=(Min=2.000000,Max=6.000000),Z=(Min=2.000000,Max=6.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=50.000000
+         Texture=Texture'HP_FX.Particles.flare4'
+         LifetimeRange=(Min=3.000000)
+         InitialDelayRange=(Min=1.500000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Max=200.000000))
+         Name="SpriteEmitter23"
+     End Object
+     Emitters(2)=SpriteEmitter'HGame.PatMeterEmitter.SpriteEmitter23'
+}

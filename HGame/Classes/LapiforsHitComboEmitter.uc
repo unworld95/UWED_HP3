@@ -1,0 +1,62 @@
+Class LapiforsHitComboEmitter extends HitComboEmitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter18
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=64,R=128))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(G=128,R=255))
+         ColorScaleRepeats=20.000000
+         FadeOut=True
+         MaxParticles=20
+         StartLocationOffset=(Z=20.000000)
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=1.000000,Max=2.000000))
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=10.000000,Max=10.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=200.000000
+         Texture=Texture'HP3_FX.Particles.ConfettiPiece'
+         StartVelocityRange=(X=(Min=-5.000000,Max=5.000000),Y=(Min=-5.000000,Max=5.000000),Z=(Min=-15.000000,Max=-1.000000))
+         Name="SpriteEmitter18"
+     End Object
+     Emitters(0)=SpriteEmitter'HGame.LapiforsHitComboEmitter.SpriteEmitter18'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter17
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,G=128))
+         FadeOutStartTime=0.400000
+         FadeOut=True
+         CoordinateSystem=PTCS_Relative
+         MaxParticles=20
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=2.000000))
+         StartLocationShape=PTLS_Sphere
+         RevolutionCenterOffsetRange=(X=(Min=15.000000,Max=20.000000))
+         RevolutionsPerSecondRange=(Y=(Min=1.000000,Max=1.250000))
+         UseRotationFrom=PTRS_Normal
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         RotationNormal=(X=1.000000)
+         UseSizeScale=True
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.500000,RelativeSize=3.000000)
+         SizeScale(2)=(RelativeTime=0.800000,RelativeSize=0.100000)
+         StartSizeRange=(X=(Min=1.000000,Max=1.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=1.000000
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'HP_FX.Particles.blob32'
+         LifetimeRange=(Min=1.000000,Max=1.250000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=20.000000,Max=20.000000),Z=(Max=10.000000))
+         AddVelocityMultiplierRange=(Z=(Max=5.000000))
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeTime=0.100000,RelativeVelocity=(X=5.000000,Y=5.000000,Z=20.000000))
+         VelocityScale(1)=(RelativeTime=0.300000,RelativeVelocity=(X=5.000000,Y=5.000000,Z=-20.000000))
+         VelocityScale(2)=(RelativeTime=0.500000,RelativeVelocity=(X=5.000000,Y=5.000000,Z=20.000000))
+         VelocityScale(3)=(RelativeTime=0.700000,RelativeVelocity=(X=5.000000,Y=5.000000,Z=-20.000000))
+         VelocityScale(4)=(RelativeTime=0.900000,RelativeVelocity=(X=5.000000,Y=5.000000,Z=20.000000))
+         Name="SpriteEmitter17"
+     End Object
+     Emitters(1)=SpriteEmitter'HGame.LapiforsHitComboEmitter.SpriteEmitter17'
+     LightHue=80
+     LightSaturation=70
+}

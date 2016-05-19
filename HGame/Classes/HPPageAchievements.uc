@@ -1,0 +1,66 @@
+Class HPPageAchievements extends HPGUIPage;
+
+var MenuObject MenuManager;
+var string DefaultHint;
+var float LastCanvasSizeX;
+var string ScoreText[8];
+var float ScoreTextPosX;
+var float ScoreTextPosScaledX;
+var float ScoreTextPosY[8];
+var float ScoreTextPosScaledY[8];
+var float ScoreScrollPosX;
+var float ScoreScrollPosScaledX;
+var float ScoreScrollPosY[8];
+var float ScoreScrollPosScaledY[8];
+var export editinlineuse GUIButton BtnMask[8];
+var int done[8];
+var export editinlineuse GUILabel lblTitle;
+var export editinlineuse GUIImage imgCheck0;
+var export editinlineuse GUIImage imgCheck1;
+var export editinlineuse GUIImage imgCheck2;
+var export editinlineuse GUIImage imgCheck3;
+var export editinlineuse GUIImage imgCheck4;
+var export editinlineuse GUIImage imgCheck5;
+var export editinlineuse GUIImage imgCheck6;
+var export editinlineuse GUILabel lblTxt0;
+var export editinlineuse GUILabel lblTxt1;
+var export editinlineuse GUILabel lblTxt2;
+var export editinlineuse GUILabel lblTxt3;
+var export editinlineuse GUILabel lblTxt4;
+var export editinlineuse GUILabel lblTxt5;
+var export editinlineuse GUILabel lblTxt6;
+var export editinlineuse GUILabel lblTxt7;
+var export editinlineuse GUIButton btnScroll0Mask;
+var export editinlineuse GUIButton btnScroll1Mask;
+var export editinlineuse GUIButton btnScroll2Mask;
+var export editinlineuse GUIButton btnScroll3Mask;
+var export editinlineuse GUIButton btnScroll4Mask;
+var export editinlineuse GUIButton btnScroll5Mask;
+var export editinlineuse GUIButton btnScroll6Mask;
+var export editinlineuse GUIButton btnScroll7Mask;
+var export editinlineuse GUIImage imgBar0;
+var export editinlineuse GUIImage imgBar1;
+var export editinlineuse GUIGFXButton buttonQuit;
+var export editinlineuse GUIGFXButton ButtonBack;
+var export editinlineuse GUILabel lblHint;
+const BTN_HEIGHT= 0.16666667;
+const BTN_WIDTH= 0.125;
+const SCROLL_VGAP= 0.07;
+const TEXT_VGAP= 0.05333;
+const CHECKS_VGAP= 0.055;
+const SCROLL_H= 0.05333;
+const TEXT_H= 0.06;
+const CHECKS_H= 0.10667;
+const SCROLL_W= 0.16;
+const TEXT_W= 0.8;
+const CHECKS_W= 0.08;
+const SCROLL_L= 0.78;
+const TEXT_L= 0.14;
+const CHECKS_L= 0.05;
+const INVENTORY_T= 0.6;
+const ENCOUNTER_T= 0.4;
+const CHALLENGE_T= 0.2;
+
+defaultproperties
+{
+}

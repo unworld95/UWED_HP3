@@ -1,0 +1,51 @@
+Log: Log file open, 04/02/15 20:34:24
+Init: Name subsystem initialized
+Init: Detected: Microsoft Windows NT 6.1 (Build: 7601)
+Init: Version: 2226
+Init: Compiled: Sep 17 2003 17:25:46
+Init: Command line:          -log=server.log
+Init: Base directory: D:\UWFiles\UWED_HP3_Fuller\System\
+Init: Character set: Unicode
+Log: Bound to Core.dll
+Init: Object subsystem initialized
+Init: Computer: USERPC
+Init: User: user
+Init: CPU Page size=4096, Processors=4
+Init: CPU Detected: PentiumPro-class processor (GenuineIntel)
+Init: CPU Features: CMov FPU RDTSC PAE MMX SSE
+Init: CPU Speed=1796.012200 MHz
+Init: Memory total: Phys=4194303K Pagef=4194303K Virt=2097024K
+Init: Working set: 32000 / 159000
+Log: Bound to Engine.dll
+Log: Executing Class Engine.ServerCommandlet
+Init: Unreal engine initialized
+Log: (Karma): Beginning Karma for game.
+Log: (Karma): Creating MeAssetDB.
+Log: (Karma): Finished Creating MeAssetDB (0 Assets).
+Log: Adding MD5 Entry for 5406753D4D0E08131E4F9D849766C21F [3825604bc6013185fae5b9f1636013fc]
+Log: Adding MD5 Entry for C82615024874586E3521ACB4352361AD [1b929c89a0ee311c2267dae467df82df]
+Log: Adding MD5 Entry for BDEB83354557E9C9DC70DD87F5115DC2 [a53426caf2cbdbfe185cf69559fcead1]
+Log: Adding MD5 Entry for 000CD2504E2C435700ADF2AEB38A6DAD [c9c5f42e1c62b84e8529b0564a7160c3]
+Log: Adding MD5 Entry for 701E30774B27F05F589BA6A10D306044 [d35c388db060229257a2b7439b2f5ecb]
+Log: Adding MD5 Entry for 9395926B405A7F44C79321A3A1C62739 [3f3a8c9aeccc3b638817f2123b08c90e]
+Log: Adding MD5 Entry for E5B954E24445684AB10C8AA3BA04DC8F [ed4869ed3292fe3762b1d0e2041f6ece]
+Log: Adding MD5 Entry for 6A01DD384A10887232F323BA92121601 [dac16d6669a8156ffb4feb44c79cce0b]
+Log: Adding MD5 Entry for 8AA0036E405C81EBEAE5A6AB32CBF8C3 [fcb2da1544ea0c41df6948126285defc]
+Log: Adding MD5 Entry for FDCCF2AB436F570FD6D598BF8841F8B1 [b78598a6a4d7f9068a6a462c1b7c4e4e]
+Log: Adding MD5 Entry for 446FD6674246DA1F712EC48E03F423AE [f5550e154bd6bbb3f53de7d22a1597ce]
+Log: Adding MD5 Entry for 8372E0EA44C6F82E42064FB02FBC6A89 [beb19f3e5c891f17c241d708419222b1]
+Log: Adding MD5 Entry for B47597BF448973BE45F6AEB672D8F097 [1dde0e28fd1b321907d26aa0c36fb534]
+Log: Adding MD5 Entry for 9D80AF694179504A055EE6A1140D75D5 [2afae3e191fcb4d955d8bf4b8dba045f]
+Log: Adding MD5 Entry for 535DEFAD4ABBDF82E4367BADA67E9201 [baffffda2c0aeb6d8224e60d64fdbb08]
+Log: Adding MD5 Entry for D2A91DE64686F1E9CF33DB87F52D6929 [f1af58ea12d27dc6966e3d4aef79f0a2]
+Log: Adding MD5 Entry for CC50CB2047D7949BE98D55BB9B001164 [364dbfa170db87eaaf01736b52794ead]
+Log: Browse: Entry.urt/Index.urt?Name=Player?Class=Runtime.RTPawn?team=255
+Critical: appError called:
+Critical: Failed to enter Entry.urt: Servers can't open network URLs
+Exit: Executing UObject::StaticShutdownAfterError
+Critical: UGameEngine::Init
+Critical: UServerCommandlet::Main
+Exit: Exiting.
+Log: Waiting for file streaming thread to finish...
+Uninitialized: Name subsystem shut down
+Uninitialized: Log file closed, 04/02/15 20:34:26

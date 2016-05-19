@@ -1,0 +1,65 @@
+Class Tab_Stats extends HPPageMainMenu;
+
+var float HPHealth;
+var float HGHealth;
+var float RWHealth;
+var int secretCount;
+var int starCount;
+var export editinlineuse GUILabel lblInfo;
+var export editinlineuse GUIImage imgInfoBracketL;
+var export editinlineuse GUIImage imgInfoBracketR;
+var export editinlineuse GUIButton btnInfoMask;
+var export editinlineuse GUIButton btnHPHealthMask;
+var export editinlineuse GUIButton btnHGHealthMask;
+var export editinlineuse GUIButton btnRWHealthMask;
+var export editinlineuse GUIButton btnSecretMask;
+var export editinlineuse GUIButton btnStarMask;
+var export editinlineuse GUIButton btnAchievements;
+const LBL_STAR_T= 454;
+const LBL_STAR_L= 527;
+const LBL_SECRET_T= 454;
+const LBL_SECRET_L= 275;
+const LBL_INFO_T= 189;
+const LBL_INFO_L= 400;
+const ART_BAR_H= 128;
+const ART_BAR_W= 102;
+const ART_BAR_L= 13;
+const BAR_H= 128;
+const BAR_W= 102.4;
+const HG_BAR_L= 605.8;
+const HP_BAR_L= 349.8;
+const RW_BAR_L= 93.8;
+const MASK_H= 0.213333;
+const MASK_W= 0.16;
+const MASK_ROW1_Y= 0.583333;
+const MASK_ROW0_Y= 0.435;
+const MASK_STAR_X= 0.57875;
+const MASK_SECRET_X= 0.26375;
+const MASK_HG_X= 0.74125;
+const MASK_HP_X= 0.42125;
+const MASK_RW_X= 0.10125;
+const MASK_INFO_H= 0.213333;
+const MASK_INFO_W= 0.64;
+const MASK_INFO_Y= 0.20833;
+const MASK_INFO_X= 0.18;
+const BTN_H= 0.213333;
+const BTN_W= 0.16;
+const BTN_T= 0.213333;
+const BTN_L= 0.885;
+const ROW1_Y= 350;
+const ROW0_Y= 261;
+const STAR_X= 463;
+const SECRET_X= 211;
+const HG_X= 593;
+const HP_X= 337;
+const RW_X= 81;
+const INFO_Y= 125;
+const INFO_X= 144;
+const NEW_INFO_H= 0.2133333;
+const NEW_INFO_W= 0.64;
+const NEW_INFO_T= 0.2133333;
+const NEW_INFO_L= 0.18;
+
+defaultproperties
+{
+}

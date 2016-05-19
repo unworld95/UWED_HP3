@@ -1,0 +1,82 @@
+Class RictuHitComboEmitter extends HitComboEmitter;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter145
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,R=128))
+         ColorScale(1)=(RelativeTime=0.250000,Color=(B=64,R=128))
+         ColorScale(2)=(RelativeTime=0.500000,Color=(R=255))
+         ColorScale(3)=(RelativeTime=0.750000,Color=(B=64,R=128))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=64,R=128))
+         FadeOutStartTime=0.150000
+         FadeOut=True
+         CoordinateSystem=PTCS_Relative
+         MaxParticles=200
+         AutoReset=True
+         AutoResetTimeRange=(Min=0.500000,Max=0.500000)
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=2.000000))
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Min=65536.000000,Max=65536.000000)
+         StartLocationPolarRange=(X=(Min=65536.000000,Max=65536.000000),Y=(Max=65536.000000),Z=(Min=10.000000,Max=20.000000))
+         UseRevolution=True
+         RevolutionCenterOffsetRange=(Y=(Min=10.000000,Max=35.000000))
+         RevolutionsPerSecondRange=(Y=(Min=0.400000,Max=0.500000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-20.000000,Max=20.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         RotationNormal=(X=1.000000)
+         SizeScale(0)=(RelativeTime=0.500000,RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.870000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=1.000000,Max=3.000000),Y=(Min=1.000000,Max=3.000000),Z=(Min=1.000000,Max=3.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=1000.000000
+         Texture=Texture'HP3_FX.Particles.SquareStar'
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Min=-10.000000,Max=10.000000))
+         StartVelocityRadialRange=(Min=100.000000,Max=100.000000)
+         GetVelocityDirectionFrom=PTVD_AddRadial
+         Name="SpriteEmitter145"
+     End Object
+     Emitters(0)=SpriteEmitter'HGame.RictuHitComboEmitter.SpriteEmitter145'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter146
+         UseDirectionAs=PTDU_Up
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=64,R=128))
+         ColorScale(1)=(RelativeTime=0.250000,Color=(B=64,R=127))
+         ColorScale(2)=(RelativeTime=0.500000,Color=(R=255))
+         ColorScale(3)=(RelativeTime=0.750000,Color=(B=64,R=128))
+         ColorScale(4)=(RelativeTime=1.000000,Color=(B=64,R=128))
+         FadeOutStartTime=0.150000
+         FadeOut=True
+         CoordinateSystem=PTCS_Relative
+         MaxParticles=300
+         AutoReset=True
+         Disabled=True
+         AutoResetTimeRange=(Min=0.500000,Max=0.500000)
+         StartLocationRange=(X=(Min=-2.000000,Max=2.000000),Z=(Min=-2.000000,Max=2.000000))
+         SphereRadiusRange=(Min=1000.000000,Max=1000.000000)
+         MeshSpawningStaticMesh=StaticMesh'HP3_Particles_SM.Spell_Shapes.RictusempraShape_SM'
+         MeshSpawning=PTMS_Linear
+         VelocityFromMesh=True
+         UseRevolution=True
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-20.000000,Max=20.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         RotationNormal=(X=1.000000)
+         SizeScale(0)=(RelativeTime=0.500000,RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.870000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=1.000000,Max=2.000000),Y=(Min=1.000000,Max=2.000000),Z=(Min=1.000000,Max=2.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=1000.000000
+         Texture=Texture'HP3_FX.Particles.SquareStar'
+         LifetimeRange=(Min=0.250000,Max=0.250000)
+         StartVelocityRange=(X=(Min=-0.250000,Max=0.250000),Y=(Min=-0.250000,Max=0.250000),Z=(Min=-0.250000,Max=0.250000))
+         VelocityScale(1)=(RelativeTime=0.550000)
+         VelocityScale(2)=(RelativeTime=0.600000,RelativeVelocity=(X=1.000000,Y=1.000000,Z=1.000000))
+         VelocityScale(3)=(RelativeTime=0.800000)
+         Name="SpriteEmitter146"
+     End Object
+     Emitters(1)=SpriteEmitter'HGame.RictuHitComboEmitter.SpriteEmitter146'
+     LightSaturation=70
+}

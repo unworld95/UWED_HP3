@@ -1,0 +1,1 @@
+start UnrealEd.exe -nogamma

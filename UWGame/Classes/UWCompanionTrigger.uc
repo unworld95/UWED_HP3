@@ -1,0 +1,1 @@
+class UWCompanionTrigger extends CompanionTrigger;

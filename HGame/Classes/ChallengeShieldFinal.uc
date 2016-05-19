@@ -1,0 +1,135 @@
+Class ChallengeShieldFinal extends GameFX;
+
+defaultproperties
+{
+     Begin Object Class=SparkEmitter Name=SparkEmitter1
+         LineSegmentsRange=(Min=0.500000,Max=0.500000)
+         TimeBetweenSegmentsRange=(Min=0.250000,Max=0.500000)
+         UseColorScale=True
+         ColorScale(0)=(RelativeTime=0.500000,Color=(B=67,G=197,R=252))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=64,G=128,R=255))
+         MaxParticles=300
+         Texture=Texture'HP3_FX.Particles.ConfettiPiece'
+         SecondsBeforeInactive=2.000000
+         LifetimeRange=(Min=2.000000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-200.000000,Max=200.000000),Y=(Min=-200.000000,Max=200.000000),Z=(Min=-100.000000,Max=200.000000))
+         Name="SparkEmitter1"
+     End Object
+     Emitters(0)=SparkEmitter'HGame.ChallengeShieldFinal.SparkEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter1
+         UseColorScale=True
+         ColorScale(1)=(RelativeTime=0.200000,Color=(B=91,G=218,R=255))
+         ColorScale(2)=(RelativeTime=0.600000,Color=(G=128))
+         ColorScale(3)=(RelativeTime=1.000000)
+         MaxParticles=60
+         Disabled=True
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000))
+         RevolutionsPerSecondRange=(Z=(Min=0.200000,Max=0.500000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.250000,Y=0.250000,Z=0.250000)
+         SpinsPerSecondRange=(X=(Min=0.150000,Max=0.350000))
+         UseSizeScale=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.600000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=6.000000,Max=12.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=20.000000
+         Texture=Texture'HP_FX.Particles.Les_Sparkle_04'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=1
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=1.500000,Max=2.000000)
+         StartVelocityRange=(X=(Max=100.000000),Y=(Min=-100.000000,Max=100.000000),Z=(Max=100.000000))
+         Name="SpriteEmitter1"
+     End Object
+     Emitters(1)=SpriteEmitter'HGame.ChallengeShieldFinal.SpriteEmitter1'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseColorScale=True
+         ColorScale(1)=(RelativeTime=0.200000,Color=(B=91,G=218,R=255))
+         ColorScale(2)=(RelativeTime=0.600000,Color=(B=11,G=11,R=244))
+         ColorScale(3)=(RelativeTime=1.000000)
+         MaxParticles=60
+         Disabled=True
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000))
+         RevolutionsPerSecondRange=(Z=(Min=0.200000,Max=0.500000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.250000,Y=0.250000,Z=0.250000)
+         SpinsPerSecondRange=(X=(Min=0.150000,Max=0.350000))
+         UseSizeScale=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.600000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=6.000000,Max=12.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=20.000000
+         Texture=Texture'HP_FX.Particles.Les_Sparkle_04'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=1
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=1.500000,Max=2.000000)
+         StartVelocityRange=(X=(Max=-100.000000),Y=(Min=-100.000000,Max=100.000000),Z=(Max=100.000000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(2)=SpriteEmitter'HGame.ChallengeShieldFinal.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         UseColorScale=True
+         ColorScale(1)=(RelativeTime=0.200000,Color=(B=91,G=218,R=255))
+         ColorScale(2)=(RelativeTime=0.600000,Color=(B=255,G=128))
+         ColorScale(3)=(RelativeTime=1.000000)
+         MaxParticles=60
+         Disabled=True
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000))
+         RevolutionsPerSecondRange=(Z=(Min=0.200000,Max=0.500000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.250000,Y=0.250000,Z=0.250000)
+         SpinsPerSecondRange=(X=(Min=0.150000,Max=0.350000))
+         UseSizeScale=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.600000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=6.000000,Max=12.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=20.000000
+         Texture=Texture'HP_FX.Particles.Les_Sparkle_04'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=1
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=1.500000,Max=2.000000)
+         StartVelocityRange=(X=(Max=100.000000),Y=(Min=-100.000000,Max=100.000000),Z=(Max=-100.000000))
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(3)=SpriteEmitter'HGame.ChallengeShieldFinal.SpriteEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         UseColorScale=True
+         ColorScale(1)=(RelativeTime=0.200000,Color=(B=91,G=218,R=255))
+         ColorScale(2)=(RelativeTime=0.600000,Color=(B=128,R=128))
+         ColorScale(3)=(RelativeTime=1.000000)
+         MaxParticles=60
+         Disabled=True
+         StartLocationRange=(X=(Min=-3.000000,Max=3.000000),Y=(Min=-3.000000,Max=3.000000))
+         RevolutionsPerSecondRange=(Z=(Min=0.200000,Max=0.500000))
+         SpinParticles=True
+         SpinCCWorCW=(X=0.250000,Y=0.250000,Z=0.250000)
+         SpinsPerSecondRange=(X=(Min=0.150000,Max=0.350000))
+         UseSizeScale=True
+         SizeScale(0)=(RelativeSize=1.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=1.000000)
+         SizeScale(2)=(RelativeTime=0.600000,RelativeSize=1.000000)
+         SizeScale(3)=(RelativeTime=1.000000)
+         StartSizeRange=(X=(Min=6.000000,Max=12.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=20.000000
+         Texture=Texture'HP_FX.Particles.Les_Sparkle_04'
+         TextureUSubdivisions=1
+         TextureVSubdivisions=1
+         BlendBetweenSubdivisions=True
+         LifetimeRange=(Min=1.500000,Max=2.000000)
+         StartVelocityRange=(X=(Max=-100.000000),Y=(Min=-100.000000,Max=100.000000),Z=(Max=-100.000000))
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(4)=SpriteEmitter'HGame.ChallengeShieldFinal.SpriteEmitter4'
+}

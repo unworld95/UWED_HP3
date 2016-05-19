@@ -1,0 +1,400 @@
+Log: Log file open, 05/18/16 23:02:27
+Init: Name subsystem initialized
+Init: Detected: Microsoft Windows NT 6.1 (Build: 7601)
+Init: Version: 2226
+Init: Compiled: Sep 17 2003 17:25:46
+Init: Command line:  -nogamma
+Init: Base directory: U:\UWFiles\UWED_HP3_Git\System\
+Init: Character set: Unicode
+Log: Bound to Core.dll
+Log: Bound to Editor.dll
+Log: Bound to Engine.dll
+Log: Bound to Window.dll
+Init: Object subsystem initialized
+Init: Computer: UWPC
+Init: User: UW
+Init: CPU Page size=4096, Processors=4
+Init: CPU Detected: PentiumPro-class processor (GenuineIntel)
+Init: CPU Features: CMov FPU RDTSC PAE MMX SSE
+Init: CPU Speed=2592.343280 MHz
+Init: Memory total: Phys=4194303K Pagef=4194303K Virt=2097024K
+Init: Working set: 32000 / 159000
+Log: Bound to Fire.dll
+Init: Unreal engine initialized
+Log: Bound to ALAudio.dll
+Init: ALAudio: subsystem initialized.
+Init: Transaction tracking system initialized
+Log: Bound to IpDrv.dll
+Log: Bound to UWeb.dll
+Log: Bound to GUI.dll
+Warning: Missing fntMenuFont fntMenuFont GUI.GUIController.GUIMenuFont
+Warning: Missing fntDefaultFont fntDefaultFont GUI.GUIController.GUIDefaultFont
+Warning: Missing fntLargeFont fntLargeFont GUI.GUIController.GUILargeFont
+Warning: Missing fntHeaderFont fntHeaderFont GUI.GUIController.GUIHeaderFont
+Warning: Missing fntSmallFont fntSmallFont GUI.GUIController.GUISmallFont
+Warning: Missing fntSmallHeaderFont fntSmallHeaderFont GUI.GUIController.GUISmallHeaderFont
+Log: Bound to WinDrv.dll
+Init: Client initialized
+Log: Bound to D3DDrv.dll
+Init: Direct3D adapters detected:
+Log: 	nvumdshim.dll/Intel(R) HD Graphics 520
+Init: D3D Driver: MaxTextureBlendStages=8
+Init: D3D Driver: MaxSimultaneousTextures=8
+Init: D3D Driver: MaxActiveLights=8
+Init: D3D Driver: MaxPrimitiveCount=16777215
+Init: D3D Driver: MaxVertexIndex=16777215
+Init: D3D Driver: MaxStreams=16
+Init: D3D Driver: MaxStreamStride=255
+Init: D3D Driver: MaxVertexShaderConst=256
+Init: D3D Driver: VertexShaderVersion=1.1
+Init: D3D Driver: PixelShaderVersion=1.4
+Init: D3D Driver: AGP support detected
+Init: D3D Driver: Using w- pixel fog
+Init: D3D Driver: Supports trilinear
+Init: D3D Driver: Supports BLENDDIFFUSEALPHA
+Init: D3D Driver: Supports LOD biasing
+Init: D3D Driver: Supports Z biasing
+Init: D3D Driver: Supports D3DTOP_ADDSIGNED2X
+Init: D3D Driver: Supports D3DTOP_BUMPENVMAP
+Init: D3D Driver: Supports D3DTOP_BUMPENVMAPLUMINANCE
+Init: D3D Driver: Supports D3DTOP_DOTPRODUCT3
+Init: D3D Driver: Supports D3DTOP_MODULATEALPHA_ADDCOLOR
+Init: D3D Driver: Supports D3DTOP_MODULATECOLOR_ADDALPHA
+Init: Unreal Engine Direct3D support - internal version: SB3
+Init: D3D Device: szDriver=nvumdshim.dll
+Init: D3D Device: szDescription=Intel(R) HD Graphics 520
+Init: D3D Device: wProduct=10
+Init: D3D Device: wVersion=18
+Init: D3D Device: wSubVersion=13
+Init: D3D Device: wBuild=6143
+Init: D3D Device: dwVendorId=32902
+Init: D3D Device: dwDeviceId=6422
+Init: D3D Device: dwSubSysId=-2132406212
+Init: D3D Device: dwRevision=7
+Init: D3D Detected: Intel video card
+Init: D3D Device: using cubemaps [with mipmaps]
+Init: Editor engine initialized
+Log: Startup time: 0.599360 seconds
+Cmd: MODE MAPEXT=unr
+Init: Input system initialized for TerrainHeightmap
+Log: Opened viewport
+Log: Enter SetRes: 386x55 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating device
+Init: D3D Driver: CreateDevice: will use hardware transform and lighting.
+Init: D3D Driver: CreateDevice: will use hardware vertex processing
+Log: Creating IME context.
+Init: Input system initialized for TerrainLayers
+Log: Opened viewport
+Log: Enter SetRes: 420x174 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating IME context.
+Init: Input system initialized for TerrainDecoLayers
+Log: Opened viewport
+Log: Enter SetRes: 420x174 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating IME context.
+Init: Input system initialized for MatineeScenes
+Log: Opened viewport
+Log: Enter SetRes: 320x177 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating IME context.
+Init: Input system initialized for MatineeActions
+Log: Opened viewport
+Log: Enter SetRes: 320x177 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating IME context.
+Init: Input system initialized for MatineeSubActions
+Log: Opened viewport
+Log: Enter SetRes: 320x177 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating IME context.
+Init: Input system initialized for U2Viewport0
+Log: Opened viewport
+Log: Enter SetRes: 320x200 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating IME context.
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Enter SetRes: 314x0 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Enter SetRes: 44x23 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Enter SetRes: 44x23 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Init: Input system initialized for U2Viewport1
+Log: Opened viewport
+Log: Enter SetRes: 320x200 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating IME context.
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Enter SetRes: 314x0 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Enter SetRes: 44x23 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Enter SetRes: 44x23 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Init: Input system initialized for U2Viewport2
+Log: Opened viewport
+Log: Enter SetRes: 320x200 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating IME context.
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Enter SetRes: 314x0 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Enter SetRes: 44x23 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Enter SetRes: 44x23 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Init: Input system initialized for U2Viewport3
+Log: Opened viewport
+Log: Enter SetRes: 320x200 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating IME context.
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Enter SetRes: 314x0 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Enter SetRes: 44x23 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Enter SetRes: 44x23 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Enter SetRes: 69x0 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Enter SetRes: 34x0 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Enter SetRes: 69x0 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Enter SetRes: 34x0 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Init: Input system initialized for MeshViewer
+Log: Opened viewport
+Log: Enter SetRes: 256x256 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating IME context.
+Cmd: CAMERA UPDATE NAME=MeshViewer MESH="BarrelM" FLAGS=641 REN=19 MISC1=0 MISC2=0
+Cmd: CAMERA UPDATE NAME=MeshViewer MESH="BarrelM" FLAGS=641 REN=19 MISC1=0 MISC2=0
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Preprocessing:  Vertex stream total vertices: 42 Orig wedges: 42
+Log: Allocating 16384 byte dynamic index buffer.
+Log: Enter SetRes: 1013x541 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Allocating 16384 byte dynamic index buffer.
+Log: Enter SetRes: 1013x561 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Allocating 16384 byte dynamic index buffer.
+Log: Enter SetRes: 1013x541 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Allocating 16384 byte dynamic index buffer.
+Init: Input system initialized for AnimationViewer
+Log: Opened viewport
+Log: Enter SetRes: 256x256 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating IME context.
+Log: Enter SetRes: 0x0 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Enter SetRes: 716x527 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Cmd: CAMERA UPDATE NAME=AnimationViewer MESH="" FLAGS=16810633 REN=26 MISC1=0 MISC2=0
+Cmd: CAMERA UPDATE NAME=AnimationViewer MESH="" FLAGS=16810633 REN=26 MISC1=0 MISC2=0
+Cmd: CAMERA UPDATE NAME=AnimationViewer MESH="" FLAGS=16810633 REN=26 MISC1=0 MISC2=0
+Cmd: CAMERA UPDATE NAME=AnimationViewer MESH="" FLAGS=16810633 REN=26 MISC1=0 MISC2=0
+Init: Input system initialized for PrefabBrowser
+Log: Opened viewport
+Log: Enter SetRes: 320x200 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating IME context.
+Cmd: CAMERA UPDATE FLAGS=545425097 REN=20 NAME=PrefabBrowser
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Enter SetRes: 1013x552 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Init: Input system initialized for StaticMeshBrowser
+Log: Opened viewport
+Log: Enter SetRes: 320x200 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating IME context.
+Log: Enter SetRes: 320x200 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Enter SetRes: 0x0 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Enter SetRes: 1020x292 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Allocating 65536 byte dynamic vertex buffer.
+Init: Input system initialized for TextureBrowser
+Log: Opened viewport
+Log: Enter SetRes: 320x200 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating IME context.
+Log: Enter SetRes: 466x178 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Init: Input system initialized for TextureBrowserUsed
+Log: Opened viewport
+Log: Enter SetRes: 320x200 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating IME context.
+Log: Enter SetRes: 466x224 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Init: Input system initialized for TextureBrowserMRU
+Log: Opened viewport
+Log: Enter SetRes: 320x200 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating IME context.
+Log: Enter SetRes: 466x224 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Enter SetRes: 0x0 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Enter SetRes: 1163x481 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Allocating 65536 byte dynamic vertex buffer.
+Cmd: CAMERA UPDATE FLAGS=1073742464 MISC2=0 REN=17 NAME=TextureBrowser PACKAGE="Decorations" GROUP="Skins"
+Log: Enter SetRes: 355x150 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Enter SetRes: 188x150 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Enter SetRes: 355x150 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Enter SetRes: 188x150 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Enter SetRes: 1197x438 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Enter SetRes: 642x438 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Enter SetRes: 1197x438 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Enter SetRes: 642x438 Fullscreen 0
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Allocating 16384 byte dynamic index buffer.
+Log: Closed viewport
+Log: Closed viewport
+Log: Closed viewport
+Log: Closed viewport
+Log: Closed viewport
+Log: Closed viewport
+Log: Closed viewport
+Log: Closed viewport
+Log: Closed viewport
+Log: Closed viewport
+Log: Closed viewport
+Log: Closed viewport
+Log: Closed viewport
+Log: Closed viewport
+Log: Closed viewport
+Log: Closed viewport
+Log: Closed viewport
+Log: appRequestExit(0)
+Exit: Preparing to exit.
+Log: Purging garbage
+Log: Unbound to Core.dll
+Log: Unbound to Editor.dll
+Log: Unbound to Engine.dll
+Log: Unbound to Window.dll
+Log: 16789308483.9ms Unloading: Package UnrealEd
+Log: 16789308484.0ms Unloading: Package Core
+Log: 16789308484.0ms Unloading: Package Engine
+Log: 16789308484.4ms Unloading: Package Editor
+Log: Unbound to Fire.dll
+Log: 16789308484.4ms Unloading: Package Fire
+Exit: Editor shut down
+Log: Unbound to ALAudio.dll
+Exit: OpenAL Audio subsystem shut down.
+Exit: Transaction tracking system shut down
+Log: Unbound to IpDrv.dll
+Log: 16789308602.2ms Unloading: Package IpDrv
+Log: Unbound to UWeb.dll
+Log: 16789308604.7ms Unloading: Package UWeb
+Log: 16789308605.1ms Unloading: Package UWindow
+Log: 16789308608.4ms Unloading: Package Gameplay
+Log: 16789308608.5ms Unloading: Package UWEngine
+Log: 16789308609.5ms Unloading: Package Decorations
+Log: Unbound to GUI.dll
+Log: 16789308609.6ms Unloading: Package GUI
+Log: 16789308609.7ms Unloading: Package GUIContent
+Log: 16789308611.2ms Unloading: Package UDebugMenu
+Log: 16789308612.0ms Unloading: Package KWGame
+Log: 16789308615.5ms Unloading: Package Runtime
+Log: 16789308615.5ms Unloading: Package RT_Box_K
+Log: 16789308615.6ms Unloading: Package RT_BoxSkins_T
+Log: 16789308615.6ms Unloading: Package RTInterface
+Log: 16789308615.6ms Unloading: Package RuntimeInterfaceContent
+Log: 16789308615.7ms Unloading: Package RuntimeInterfaceSounds
+Log: Unbound to WinDrv.dll
+Exit: Windows client shut down
+Log: Unbound to D3DDrv.dll
+Log: 16789308644.2ms Unloading: Package EM_Fonts_T
+Log: Garbage: objects: 27110->0; refs: 0
+Exit: Object subsystem successfully closed.
+Exit: Exiting.
+Log: Waiting for file streaming thread to finish...
+Uninitialized: Name subsystem shut down
+Uninitialized: Memory Allocation Status
+Uninitialized: Curr Memory  0.055M /  2.184M
+Uninitialized: Peak Memory  47.299M /  48.801M
+Uninitialized: Allocs         650 Current /  267756 Total
+Uninitialized: Log file closed, 05/18/16 23:02:35

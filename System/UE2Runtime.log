@@ -1,0 +1,107 @@
+Log: Log file open, 02/10/15 00:19:05
+Init: Name subsystem initialized
+Init: Detected: Microsoft Windows NT 6.1 (Build: 7601)
+Init: Version: 2226
+Init: Compiled: Sep 17 2003 17:25:46
+Init: Command line: 
+Init: Base directory: D:\UWFiles\UWEditor\System\
+Init: Character set: Unicode
+Log: Bound to Window.dll
+Log: Bound to Core.dll
+Log: Bound to Engine.dll
+Init: Object subsystem initialized
+Init: Computer: JSPC
+Init: User: JS
+Init: CPU Page size=4096, Processors=4
+Init: CPU Detected: PentiumPro-class processor (GenuineIntel)
+Init: CPU Features: CMov FPU RDTSC PAE MMX SSE
+Init: CPU Speed=1796.068360 MHz
+Init: Memory total: Phys=4194303K Pagef=4194303K Virt=2097024K
+Init: Working set: 32000 / 159000
+Init: Unreal engine initialized
+Log: Bound to WinDrv.dll
+Init: Client initialized
+Log: Bound to D3DDrv.dll
+Init: Direct3D adapters detected:
+Log: 	igdumd32.dll/Intel(R) HD Graphics 4000
+Init: D3D Driver: MaxTextureBlendStages=8
+Init: D3D Driver: MaxSimultaneousTextures=8
+Init: D3D Driver: MaxActiveLights=8
+Init: D3D Driver: MaxPrimitiveCount=1048575
+Init: D3D Driver: MaxVertexIndex=16777215
+Init: D3D Driver: MaxStreams=16
+Init: D3D Driver: MaxStreamStride=255
+Init: D3D Driver: MaxVertexShaderConst=256
+Init: D3D Driver: VertexShaderVersion=1.1
+Init: D3D Driver: PixelShaderVersion=1.4
+Init: D3D Driver: WARNING : no AGP support detected
+Init: D3D Driver: Using w- pixel fog
+Init: D3D Driver: Supports trilinear
+Init: D3D Driver: Supports BLENDDIFFUSEALPHA
+Init: D3D Driver: Supports LOD biasing
+Init: D3D Driver: Supports Z biasing
+Init: D3D Driver: Supports D3DTOP_ADDSIGNED2X
+Init: D3D Driver: Supports D3DTOP_BUMPENVMAP
+Init: D3D Driver: Supports D3DTOP_BUMPENVMAPLUMINANCE
+Init: D3D Driver: Supports D3DTOP_DOTPRODUCT3
+Init: D3D Driver: Supports D3DTOP_MODULATEALPHA_ADDCOLOR
+Init: D3D Driver: Supports D3DTOP_MODULATECOLOR_ADDALPHA
+Init: Unreal Engine Direct3D support - internal version: SB3
+Init: D3D Device: szDriver=igdumd32.dll
+Init: D3D Device: szDescription=Intel(R) HD Graphics 4000
+Init: D3D Device: wProduct=9
+Init: D3D Device: wVersion=18
+Init: D3D Device: wSubVersion=13
+Init: D3D Device: wBuild=2762
+Init: D3D Device: dwVendorId=32902
+Init: D3D Device: dwDeviceId=358
+Init: D3D Device: dwSubSysId=-1867050931
+Init: D3D Device: dwRevision=9
+Init: D3D Detected: Intel video card
+Init: D3D Device: using cubemaps [with mipmaps]
+Log: (Karma): Beginning Karma for game.
+Log: (Karma): Creating MeAssetDB.
+Log: (Karma): Finished Creating MeAssetDB (0 Assets).
+Log: Adding MD5 Entry for 000CD2504E2C435700ADF2AEB38A6DAD [c9c5f42e1c62b84e8529b0564a7160c3]
+Log: Adding MD5 Entry for 701E30774B27F05F589BA6A10D306044 [d35c388db060229257a2b7439b2f5ecb]
+Log: Adding MD5 Entry for E69137C247418D7648E7B0B3BC52646F [214d18ad6ea5025d7b595d8b37ee6c77]
+Log: Adding MD5 Entry for 0506BBAE43FACF94C90D5ABEF72F04AC [6118f11d9b17ef6a96a8cb276d583098]
+Log: Adding MD5 Entry for 03465B4D44B65CA2A3CFA3889FDDE40A [1b02bbac2a767a657243f56d0f0af7b6]
+Log: Adding MD5 Entry for FDCCF2AB436F570FD6D598BF8841F8B1 [b78598a6a4d7f9068a6a462c1b7c4e4e]
+Log: Adding MD5 Entry for 446FD6674246DA1F712EC48E03F423AE [f5550e154bd6bbb3f53de7d22a1597ce]
+Log: Adding MD5 Entry for 8372E0EA44C6F82E42064FB02FBC6A89 [beb19f3e5c891f17c241d708419222b1]
+Log: Adding MD5 Entry for 725F073341245E8713E5F5B92C6A9CE7 [fbd2182c91b6cf1b2e8688c5ecbaefad]
+Log: Adding MD5 Entry for 9D80AF694179504A055EE6A1140D75D5 [2afae3e191fcb4d955d8bf4b8dba045f]
+Log: Adding MD5 Entry for 803C7D894024438D3C674F81461D02B0 [707630e0791219fbcb3a47756157d34b]
+Log: Adding MD5 Entry for 0C6C6A35439FFA82FA0E6D94F1A357C9 [c773c96ac7234c31d34a4096c41c1e6e]
+Log: LoadMap: Entry
+Log: (Karma): Initialising Karma for Level.
+Log: (Karma): Autodetecting CPU for SSE
+Log: (Karma): Using SSE Optimizations
+Log: VERIFY: Class UAnimNotify_MatSubAction size problem; Script=60 C++=48
+Log: VERIFY: Class UAnimNotify size problem; Script=56 C++=44
+Log: VERIFY: Class UAnimNotify_Scripted size problem; Script=56 C++=44
+Log: VERIFY: Class UAnimNotify_Script size problem; Script=60 C++=48
+Log: VERIFY: Class UAnimNotify_Sound size problem; Script=68 C++=56
+Log: VERIFY: Class UAnimNotify_DestroyEffect size problem; Script=64 C++=52
+Log: VERIFY: Class UAnimNotify_Effect size problem; Script=116 C++=104
+Log: VERIFY: Class AMover size problem; Script=1880 C++=1652
+Log: VERIFY: Class ACarriedObject size problem; Script=1032 C++=808
+Log: VERIFY: Class AAntiPortalActor size problem; Script=1016 C++=788
+Log: VERIFY: Class ADamageType size problem; Script=1188 C++=960
+Log: VERIFY: Class AHUD size problem; Script=1356 C++=1352
+Log: VERIFY: Class ALevelInfo size problem; Script=1328 C++=1324
+Critical: appError called:
+Critical: C++/ Script class size mismatch
+Critical: Windows GetLastError: The system cannot find the file specified. (2)
+Exit: Executing UObject::StaticShutdownAfterError
+Exit: Executing UWindowsClient::ShutdownAfterError
+Critical: VerifyClasses
+Critical: UGameEngine::LoadMap
+Critical: UGameEngine::Init
+Critical: InitEngine
+Localization: No localization: Window.IDDIALOG_CrashBox.IDC_CrashBox (int)
+Exit: Exiting.
+Log: Waiting for file streaming thread to finish...
+Uninitialized: Name subsystem shut down
+Uninitialized: Log file closed, 02/10/15 00:19:19
